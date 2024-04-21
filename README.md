@@ -15,11 +15,11 @@ Ultimately, the project's success hinges on the precision of the predictive mode
 Develop a predictive model to assess an individual's risk of developing cardiovascular disease (CVD).
 
 # Problem Statement :
-The dataset we have here is from the Ongoing Cardiovascular study on the residents of the town of Framingham, Massachusetts.
+* The dataset we have here is from the Ongoing Cardiovascular study on the residents of the town of Framingham, Massachusetts.
 
-The Classfication goal is to predict whether the Patient has a 10-yrs. risk of Future Coronary Heart Disease (CHD).
+* The Classfication goal is to predict whether the Patient has a 10-yrs. risk of Future Coronary Heart Disease (CHD).
 
-On the basis of the dataset we have to build such model that can predict whether Patient will be diseased or not.?
+* On the basis of the dataset we have to build such model that can predict whether Patient will be diseased or not.?
 
 # Data Description :
 
@@ -58,3 +58,29 @@ BMI: Body Mass Index
 Heart Rate: heart rate
 
 Glucose: glucose level
+
+# Work Flow:
+1. Data Collecting
+2. Data Filtering
+3. EDA
+4. Feature Enginnering
+5. Data Modeling
+
+# Strategy:
+1. Utilize statistical metrics to discern the distributions of data.
+
+2. Create additional attributes derived from the original variables to enhance the description of the phenomenon being modeled.
+
+3. Conduct exploratory data analysis to uncover insights and gain a deeper understanding of how variables influence model learning.
+
+4. Selection of the most significant attributes for training the model.
+
+5. Implement the machine learning algorithm such as LogisticRegression, KNeighborsClassifier, DecisionTreeClassifier, 
+
+6. Employed cross-validation and hyperparameter tuning for each algorithm to improve the accuracy of the model.
+
+7. Conclude by comparing the classifiers using ROC curves.
+   ![image](https://github.com/NikitaDash/Cardio-Vascular-Risk-Prediction-classification-project/assets/139312819/2139b661-4c2a-4625-a718-c3c8f974efed)
+
+
+
