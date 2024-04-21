@@ -80,7 +80,13 @@ Glucose: glucose level
 6. Employed cross-validation and hyperparameter tuning for each algorithm to improve the accuracy of the model.
 
 7. Conclude by comparing the classifiers using ROC curves.
+
+   
    ![image](https://github.com/NikitaDash/Cardio-Vascular-Risk-Prediction-classification-project/assets/139312819/2139b661-4c2a-4625-a718-c3c8f974efed)
+
+# Conclusion:
+
+Out of the three machine learning algorithms utilized—Logistic Regression, K-Nearest Neighbors Classifier, and Decision Tree—we determined that the K-Nearest Neighbors Classifier was the most suitable and effective having 89% accuracy. Therefore, we proceeded with implementing it.
 
 
 
